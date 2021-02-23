@@ -57,6 +57,11 @@ LVC: an ordinary int variable that is initialized, tested, and changed as the lo
 Sequence:
 An iteration statement
 
-'''
-for n in range(5):
+for n in range(5): # {0,1,2,3,4 which is 5 number}
   print (n)
+
+range() function
+1 argument; range(#) --> range(stop)
+2 arguments; range(#, #) --> range(start,stop)
+3 arguments; range(#, #, #) --> range (start, stop)
+'''
